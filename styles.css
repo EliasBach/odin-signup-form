@@ -1,0 +1,33 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(media/Norse-Bold.otf);
+}
+
+* {
+    margin: 5px;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.sidebar {
+    background-image: url(media/plant.jpg);
+}
+
+.logo-name {
+    font-family: norse-bold;
+    font-size: 50px;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
