@@ -9,10 +9,11 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
 }
 
+/* SIDEBAR */
 .sidebar {
     background-image: url(media/plant.jpg);
 }
@@ -28,9 +29,20 @@ body {
     width: auto;
 }
 
+/* MAIN STRUCTURE */
+.main-container {
+    background: rgb(252, 252, 252);
+}
+
 .box {
-    margin: 10px;
-    padding: 10px;
+    padding: 50px;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.mid-box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(199, 199, 199);
 }
 
 .input-container {
@@ -41,13 +53,30 @@ body {
 .label-input-pair {
     min-width: 35%;
     max-width: 50%;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
+/* SINGLE ELEMENTS */
 label {
     display: block;
     color: rgb(30, 30, 30);
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    height: 20px;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
