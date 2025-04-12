@@ -4,7 +4,7 @@
 }
 
 * {
-    margin: 5px;
+    margin: 0px;
     font-family: sans-serif;
 }
 
@@ -28,14 +28,20 @@ body {
     width: auto;
 }
 
+.box {
+    margin: 10px;
+    padding: 10px;
+}
+
 .input-container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .label-input-pair {
-    min-width: 33%;
+    min-width: 35%;
     max-width: 50%;
+    margin-bottom: 10px;
 }
 
 label {
