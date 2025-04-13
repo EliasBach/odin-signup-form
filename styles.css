@@ -16,17 +16,30 @@ body {
 /* SIDEBAR */
 .sidebar {
     background-image: url(media/plant.jpg);
+    min-width: 320px;
+    max-width: 640px;
+    position: relative;
 }
 
 .logo-name {
     font-family: norse-bold;
-    font-size: 50px;
+    font-size: 80px;
     color: white;
 }
 
 .logo {
     height: 100px;
     width: auto;
+}
+
+.logo-box {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 180px;
 }
 
 /* MAIN STRUCTURE */
@@ -94,7 +107,7 @@ button {
 
 /* TEXT ELEMENTS */
 h1 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 span {
@@ -106,3 +119,5 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+
+/* PSEUDO CLASSES */
